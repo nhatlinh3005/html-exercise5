@@ -1,0 +1,60 @@
+.container {
+  width: 1024px;
+  margin: 0 auto;
+  font-size: 0; }
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+  ul li {
+    position: relative; }
+    ul li a {
+      position: absolute;
+      z-index: 1000;
+      left: 66px;
+      bottom: 26px;
+      cursor: pointer; }
+      ul li a:hover {
+        content: url("../images/img_btn_on.png"); }
+
+.img--right {
+  left: 27px; }
+
+.img--bottom {
+  bottom: 33px; }
+
+.img_11_07, .img_11_08 {
+  bottom: 35px; }
+
+.img_11_01, .img_11_02 {
+  bottom: 32px; }
+
+.img--top__02 {
+  bottom: 38px; }
+
+.footer {
+  position: relative; }
+
+.footer__img {
+  position: absolute;
+  right: 28px;
+  top: 20px; }
+
+.footer__link {
+  position: absolute;
+  top: 75px; }
+  .footer__link a {
+    margin-left: 25px; }
+
+.img_12 {
+  position: relative; }
+  .img_12 a {
+    position: absolute;
+    bottom: 53px;
+    left: 292px; }
+
+/*# sourceMappingURL=style.css.map */
