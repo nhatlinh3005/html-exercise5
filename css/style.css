@@ -1,7 +1,16 @@
+body {
+  background: url("../images/background.png") no-repeat;
+  background-position-x: center;
+  background-position-y: 4%; }
+
 .container {
   width: 1024px;
   margin: 0 auto;
-  font-size: 0; }
+  font-size: 0;
+  border: 1px #f3ede4 solid; }
+
+.img_02 {
+  margin-left: 23px; }
 
 ul {
   display: flex;
